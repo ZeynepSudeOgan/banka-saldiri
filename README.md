@@ -81,34 +81,6 @@ Lab'ı tamamlamış sayılman için aşağıdakileri yapman gerekiyor:
 
 ---
 
-## 🛡️ Defansif Bakış
-
-Bu lab bir **red team alıştırması** gibi görünüyor ama esas öğretmek istediği şey şu: bir saldırı başarılı olduktan **sonra** bile, saldırgan log'larda parmak izi bırakır. İyi bir blue team şu soruları sorar:
-
-- İstek **hangi Origin'den** geldi?
-- Kullanıcının **olağan saatlerinde mi** tetiklendi?
-- Recipient hesabı **daha önce hiç görülmüş mü**?
-- Aynı session'da **anormal hızlı** ardışık işlem var mı?
-
-Saldırgan tasarımdaki açığı buldu, evet. Ama bu izleri silemedi. Senin işin: izleri okumak ve hikâyeyi yeniden anlatmak.
-
----
-
-## 📁 Repo Yapısı
-
-```
-banka-saldiri/
-├── README.md                ← Bu dosya
-├── SOLUTION.md              ← Tam çözüm (spoiler içerir)
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── app.py                   ← Flask uygulaması (zafiyetler burada)
-└── templates/
-    ├── login.html
-    └── transfer.html
-```
-
 > **Not:** Çözüme bakmadan önce kendin denemeni öneririm. Sıkıştığında `SOLUTION.md` dosyasında adım adım açıklama bulabilirsin.
 
 ---
