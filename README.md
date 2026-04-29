@@ -1,5 +1,5 @@
-# 🎯 Banka Saldırısı (Northfield Heist)
-### *Private Banking, Public Vulnerabilities*
+# 🎯 Banka Saldırısı
+
 
 Bir CSRF (Cross-Site Request Forgery) zafiyet laboratuvarı. Burp Suite ile çözülmek üzere tasarlanmış, gerçekçi bir bankacılık arayüzü üzerinde çalışan, izole bir Docker ortamı.
 
