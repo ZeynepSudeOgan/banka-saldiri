@@ -4,8 +4,6 @@ import os
 app = Flask(__name__)
 app.secret_key = "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8"
 
-# SameSite=Lax (default) — session çalışsın
-# session_id cookie'sinde SameSite=None gösterimi yapılacak
 app.config["SESSION_COOKIE_HTTPONLY"] = True
 
 CSRF_TOKEN = "a1b2c3d4e5f6789012345678abcdef00"
