@@ -84,12 +84,3 @@ Lab'ı tamamlamış sayılman için aşağıdakileri yapman gerekiyor:
 > **Not:** Çözüme bakmadan önce kendin denemeni öneririm. Sıkıştığında `SOLUTION.md` dosyasında adım adım açıklama bulabilirsin.
 
 ---
-
-## ⚠️ Yasal Uyarı
-
-Bu laboratuvar yalnızca **eğitim amaçlı** ve izole ortamlarda çalıştırılmak üzere hazırlanmıştır. Burada öğrenilen tekniklerin, sahibi olmadığınız ya da yazılı izniniz bulunmayan sistemlerde uygulanması yasalara aykırıdır ve ciddi cezai sorumluluk doğurur. Bilginizi yalnızca koruma amaçlı kullanın.
-
----
-
-> *"Every breach tells a story. Your job is to read it before the press does."*
-
