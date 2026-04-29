@@ -246,19 +246,3 @@ Production'da reverse proxy (nginx, Cloudflare) ile TLS sonlandırması yap, HTT
 - Davranışsal risk skorlaması (anormal saatler, yeni recipient için ekstra adım)
 
 ---
-
-## 📊 Bu Lab'ın Kapsamadığı Konular
-
-İlerlemiş bir CSRF analizi için bu lab'ın değinmediği başka teknikler:
-
-- **Login CSRF** — saldırgan kendi hesabına login ettirip aktivite topluyor
-- **JSON tabanlı CSRF** — `Content-Type: application/json` ile bypass denemeleri
-- **CORS misconfiguration ile CSRF** — `Access-Control-Allow-Origin: *` + credentials
-- **SameSite=Lax bypass** — `<form method="GET">` ile top-level navigasyon
-- **CSRF + XSS chain** — XSS varsa CSRF token okumak
-
-Bu lab seviye 1. İleriki seviyelerde bu vektörler işlenecek.
-
----
-
-> *"Bir saldırı çalıştığı için zekice değildir — savunma çalışmadığı için çalışır."*
