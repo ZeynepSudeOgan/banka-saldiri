@@ -7,15 +7,13 @@ Bir CSRF (Cross-Site Request Forgery) zafiyet laboratuvarı. Burp Suite ile çö
 
 ## 📜 Senaryo
 
-**Tarih:** 2 Kasım 2025, Pazar — 03:47
-
 Bankamız butik bir özel bankacılık kurumu. Müşteri portföyünde devlet adamları, miras vakıfları, isimsiz bağışçılar var. Kurumun mottosu yıllardır aynı: *"Discretion is our currency."*
 
 Ama o gece bir şey kırıldı.
 
 Hafta sonu güvenlik nöbetinde olan SOC ekibi, sabah 03:47'de bir alarm aldı: tek bir hesaptan, yarım saat içinde, daha önce hiç işlem görmemiş bir alıcıya **art arda transferler**. Hesap sahibi uyuyordu. Telefonuna dokunmamıştı. Cihazından şikâyet gelmemişti. Loglarda kullanıcı düzgünce login olmuş, oturum normal görünüyor — ama transferler kullanıcının iradesi dışında gerçekleşmiş gibi.
 
-Yönetim panik halinde. Basın saat dokuzda kapıya dayanacak. Senin elinde sadece şunlar var:
+Yönetim panik halinde. Senin elinde sadece şunlar var:
 
 - Uygulamanın kaynak kodu
 - Tarayıcının davranışı
@@ -38,7 +36,7 @@ Saldırgan iz bırakmadığını sanıyor. Ama her saldırgan bir yerde hata yap
 
 | Özellik | Değer |
 |---------|-------|
-| **Zorluk** | ⭐⭐ Kolay-Orta |
+| **Zorluk** | ⭐ Kolay|
 | **Odak Noktası** | Cross-Site Request Forgery, SameSite Cookie Politikaları, Origin/Referer Doğrulaması, Burp Proxy Temelleri |
 | **Süre** | 30–45 dakika |
 | **Stack** | Flask 3.0 · Python · Docker |
