@@ -22,7 +22,7 @@ Yönetim panik halinde. Senin elinde sadece şunlar var:
 
 Saldırgan iz bırakmadığını sanıyor. Ama her saldırgan bir yerde hata yapar — ya tasarımda, ya isteğin kendisinde, ya da güvendiği bir varsayımda.
 
-> **Görevin:** Saldırının nasıl gerçekleştirildiğini yeniden inşa et. Mağdurun tek bir tıklaması bu kadar parayı nasıl uçurabildi? Kanıtları topla, zafiyet zincirini çıkar, raporu yaz.
+> **Görevin:** Saldırının nasıl gerçekleştirildiğini yeniden inşa et. Mağdurun tek bir tıklaması bu kadar parayı nasıl uçurabildi? Kanıtları topla, zafiyet zincirini çıkar.
 >
 > **Saldırgan kendini nerede ele verdi? Bul.**
 
@@ -77,8 +77,6 @@ Lab'ı tamamlamış sayılman için aşağıdakileri yapman gerekiyor:
 - ☐ Mağdur kullanıcının iradesi dışında, **mağdur sadece bir sayfayı açarak**, hesabından bir transfer gerçekleştir.
 - ☐ Saldırının çalışmasını mümkün kılan **en az iki ayrı zafiyeti** tespit et.
 - ☐ HTTP isteklerinden saldırının **kanıtını** çıkar (Origin, Referer, Cookie davranışı).
-- ☐ Düzeltme önerilerini yaz.
-
 ---
 
 > **Not:** Çözüme bakmadan önce kendin denemeni öneririm. Sıkıştığında `SOLUTION.md` dosyasında adım adım açıklama bulabilirsin.
